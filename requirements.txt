@@ -1,0 +1,13 @@
+# Development -- keep in mind, this is my personal dev setup. 🤓
+black
+flake8
+ipython
+jedi
+mypy
+pytest
+setuptools
+twine
+wheel
+
+# "Production"
+typer
