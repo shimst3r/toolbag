@@ -6,7 +6,7 @@ Python toolbag, like a toolbox, but more flexible!
 
 ## Usage
 
-`toolbag` is a jack-of-all-trades package for Python automation. This includes automating your Python workflows (e.g. creating and populating virtual environments) and workflows managed by Python (e.g. cloud deployments our CI/CD pipelines).
+`toolbag` is a jack-of-all-trades package for Python automation. This includes automating your Python workflows (e.g. creating and populating virtual environments) and workflows managed by Python (e.g. cloud deployments or CI/CD pipelines).
 
 It is a CLI based on the [typer](https://github.com/tiangolo/typer) framework.
 
