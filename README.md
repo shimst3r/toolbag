@@ -6,6 +6,10 @@ Python toolbag, like a toolbox, but more flexible!
 
 ## Usage
 
+`toolbag` is a jack-of-all-trades package for Python automation. This includes automating your Python workflows (e.g. creating and populating virtual environments) and workflows managed by Python (e.g. cloud deployments our CI/CD pipelines).
+
+It is a CLI based on the [typer](https://github.com/tiangolo/typer) framework.
+
 ## Installation
 
 You can install the latest version via `pip`:
@@ -24,9 +28,18 @@ source venv/bin/activate
 python setup.py install
 ```
 
+## Quality Assurance
+
+In order to keep the code quality high, the following actions will be implemented (using GitHub Actions):
+
+* Checking the code with `black --check`,
+* Checking the types with `mypy` (use type annotations!),
+* Linting the code with `flake8` (because it's more forgiving than `pylint`),
+* Testing the code with `pytest`.
+
 ## Compatibility
 
-`toolbog` supports Python 3.7 and upwards.
+`toolbag` supports Python 3.7 and upwards.
 
 ## Licence
 
