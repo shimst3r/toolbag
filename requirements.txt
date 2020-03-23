@@ -4,6 +4,7 @@ flake8
 ipython
 jedi
 mypy
+pdoc3
 pytest
 setuptools
 twine
