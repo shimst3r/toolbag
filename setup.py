@@ -3,7 +3,7 @@ import os
 from setuptools import find_packages
 from setuptools import setup
 
-__version__ = "0.1.1"
+from toolbag import __version__
 
 
 def read(filename: str) -> str:
