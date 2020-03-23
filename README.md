@@ -23,7 +23,7 @@ Or you can clone the repository and build it from source:
 ```shell
 git clone git@github.com:shimst3r/toolbag.git
 cd toolbag
-python -m venv venv --prompt toolbox
+python -m venv venv --prompt toolbag
 source venv/bin/activate
 python setup.py install
 ```
